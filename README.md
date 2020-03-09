@@ -39,7 +39,7 @@ Você verá algo semelhante a isto:
 A versão 1.17.3 pode variar com o tempo e com a versão que você baixou.
 
 2.  Instalando o Node.JS
-    > Para instalar o node, você possui duas maneiras.
+    > Para instalar o node, existe duas maneiras.
 
 1ª Acessar o site oficial e baixar a versão LTS para o seu S.O.
 2ª Caso esteja no windows, instalar via Chocolatey é uma otima opção.
