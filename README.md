@@ -15,7 +15,7 @@ Então para começar a utiliza o aplicativo, vamos ao pré-requisitos e a sua in
 ### Pre-requisites
 
 1.  Instalando o Yarn
-    > Para instalar o yarn, você possui duas maneiras.
+    > Para instalar o yarn, existe duas maneiras.
 
 1ª Acessar o site oficial e baixar a versão para o seu S.O.
 2ª Caso esteja no windows, instalar via Chocolatey é uma otima opção.
