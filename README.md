@@ -3,7 +3,7 @@
 Neste repositório você vai encontrar uma aplicação de um conceito de aplicativo de musica baseado no spotify web e https://dribbble.com/shots/4156485-Online-Music-Streaming-Service-Artist-Page/attachments/950274.
 
 # About App
-
+<img src="./show/cover.png">
 Conceito de um app de musica em React.
 
 ## Getting Started
