@@ -4,6 +4,7 @@ Neste repositório você vai encontrar uma aplicação de um conceito de aplicat
 
 # About App
 <img src="./show/cover.png">
+<br>
 Conceito de um app de musica em React.
 
 ## Getting Started
