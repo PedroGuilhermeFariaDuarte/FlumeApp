@@ -93,7 +93,7 @@ function Section({ children }) {
             </tr>            
             <tr>
               <td>
-                <img src={Lockjaw} />
+                <img src={Lockjaw} alt=""/>
               </td>
               <td>03.</td>
               <td>Drop The Game</td>

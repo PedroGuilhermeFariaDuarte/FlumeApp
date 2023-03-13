@@ -7,15 +7,11 @@ import Routers from "./routers";
 import Global from "./style/global";
 import "./style/mobile/index.css";
 
-// Global components
-import BarMusic from "./components/BarMusic";
-
 function App() {
   return (
     <>
       <Global />
-      <Routers />
-      {/* <BarMusic /> */}
+      <Routers />      
     </>
   );
 }
