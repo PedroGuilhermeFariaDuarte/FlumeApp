@@ -7,7 +7,7 @@ export const Nav = styled.nav`
   background-color: #ffff;
   padding: 1.25rem 0px 0px 1.25rem;
   position: absolute;
-  left: -30%;
+  left: -50%;
   transition: all 0.2s ease-in-out;
 
   display: flex;
