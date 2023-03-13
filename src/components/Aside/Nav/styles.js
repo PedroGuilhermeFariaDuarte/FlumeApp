@@ -5,7 +5,7 @@ export const NavNormal = styled.nav`
   height: 100%;
   /* border: 1px solid red; */
   background-color: #ffff;
-  padding: 20px 0px 0px 20px;
+  padding: 1.25rem 0 0 1.25rem;
 
   display: flex;
   flex-direction: column;
@@ -24,9 +24,9 @@ export const NavNormal = styled.nav`
 
     li {
       width: 100%;
-      height: 30px;
+      height: 1.875rem;
       /* border: 1px solid turquoise; */
-      padding: 10px;
+      padding: 0.625rem;
       font-weight: bold;
       color: #2c314a;
       cursor: pointer;
@@ -36,34 +36,34 @@ export const NavNormal = styled.nav`
       align-items: center;
 
       svg {
-        margin-right: 10px;
+        margin-right: 0.625rem;
       }
     }
   }
 
   ul + ul {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
 
   .subUls {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     height: auto;
   }
 
   .subUls li {
     height: 20px;
     padding: 5px;
-    padding-left: 10px;
-    font-size: 12px;
+    padding-left: 0.625rem;
+    font-size: 0.9rem;
     color: #d5d5d5;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 
     justify-content: flex-start;
     align-items: flex-start;
   }
 
   .subUls li + li {
-    font-size: 10px;
+    font-size: 0.8rem;
     font-weight: bold;
     color: #2c314a;
     /* justify-content: center;

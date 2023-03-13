@@ -23,7 +23,7 @@ function NavMobile() {
       document.querySelector("nav").style.left = "0";
       setOpenNav(true);
     } else {
-      document.querySelector("nav").style.left = "-30%";
+      document.querySelector("nav").style.left = "-50%";
       setOpenNav(false);
     }
   }

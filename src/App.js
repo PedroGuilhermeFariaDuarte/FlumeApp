@@ -5,16 +5,13 @@ import Routers from "./routers";
 
 // Global style
 import Global from "./style/global";
-
-// Global components
-import BarMusic from "./components/BarMusic";
+import "./style/mobile/index.css";
 
 function App() {
   return (
     <>
       <Global />
-      <Routers />
-      {/* <BarMusic /> */}
+      <Routers />      
     </>
   );
 }

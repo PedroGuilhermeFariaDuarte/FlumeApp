@@ -10,7 +10,9 @@ import {
   Category,
   AboutTrack,
   TrackLayear,
-  Albums
+  Albums,
+  ContainerAlbums,
+  ContentAlbums
 } from "./styles";
 
 // Assets
@@ -67,7 +69,7 @@ function Section({ children }) {
           <tbody>
             <tr>
               <td>
-                <img src={Never} />
+                <img src={Never}  alt="" />
               </td>
               <td>01.</td>
               <td>Never Be Like You </td>
@@ -76,11 +78,10 @@ function Section({ children }) {
               <td>
                 <FontAwesomeIcon icon={faPlayCircle} />
               </td>
-            </tr>
-            <br />
+            </tr>            
             <tr>
               <td>
-                <img src={Skin} />
+                <img src={Skin} alt=""/>
               </td>
               <td>02.</td>
               <td>You Know</td>
@@ -89,11 +90,10 @@ function Section({ children }) {
               <td>
                 <FontAwesomeIcon icon={faPlayCircle} />
               </td>
-            </tr>
-            <br />
+            </tr>            
             <tr>
               <td>
-                <img src={Lockjaw} />
+                <img src={Lockjaw} alt=""/>
               </td>
               <td>03.</td>
               <td>Drop The Game</td>
@@ -102,11 +102,10 @@ function Section({ children }) {
               <td>
                 <FontAwesomeIcon icon={faPlayCircle} />
               </td>
-            </tr>
-            <br />
+            </tr>            
             <tr>
               <td>
-                <img src={Flume} />
+                <img src={Flume} alt=""/>
               </td>
               <td>04.</td>
               <td>What You Need</td>
@@ -115,11 +114,10 @@ function Section({ children }) {
               <td>
                 <FontAwesomeIcon icon={faPlayCircle} />
               </td>
-            </tr>
-            <br />
+            </tr>          
             <tr>
               <td>
-                <img src={Flume} />
+                <img src={Flume} alt=""/>
               </td>
               <td>05.</td>
               <td>Slepless</td>
@@ -132,31 +130,34 @@ function Section({ children }) {
           </tbody>
           <tfoot></tfoot>
         </table>
-        <h1>Albums</h1>
-        <div className="ContainerAlbums">
-          <Albums cover={Flume}>
-            <div className="AlbumsCover"></div>
-            <div className="AlbumsAbout">
-              <p>Flume</p>
-              <p>2012</p>
-            </div>
-          </Albums>
-          <Albums cover={LikeWater}>
-            <div className="AlbumsCover"></div>
-            <div className="AlbumsAbout">
-              <p>Like Water</p>
-              <p>2017</p>
-            </div>
-          </Albums>
-          <Albums cover={Skin}>
-            <div className="AlbumsCover"></div>
-            <div className="AlbumsAbout">
-              <p>Skin: The Remixes</p>
-              <p>2017</p>
-            </div>
-          </Albums>
-        </div>
+        <ContainerAlbums>
+          <h1>Albums</h1>
+          <ContentAlbums>
+            <Albums cover={Flume}>
+              <div className="AlbumsCover"></div>
+              <div className="AlbumsAbout">
+                <p>Flume</p>
+                <p>2012</p>
+              </div>
+            </Albums>
+            <Albums cover={LikeWater}>
+              <div className="AlbumsCover"></div>
+              <div className="AlbumsAbout">
+                <p>Like Water</p>
+                <p>2017</p>
+              </div>
+            </Albums>
+            <Albums cover={Skin}>
+              <div className="AlbumsCover"></div>
+              <div className="AlbumsAbout">
+                <p>Skin: The Remixes</p>
+                <p>2017</p>
+              </div>
+            </Albums>
+          </ContentAlbums>
+        </ContainerAlbums>
       </TrackLayear>
+      
     </Container>
   );
 }
