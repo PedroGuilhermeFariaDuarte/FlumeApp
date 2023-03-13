@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { usePalette } from "react-palette";
+import { usePalette } from "@lauriys/react-palette";
 
 export const Container = styled.section`
   min-width: 85%;
