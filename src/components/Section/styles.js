@@ -156,6 +156,14 @@ export const TrackLayear = styled.div.attrs((props) => ({
     margin-top: 3.125rem;
     margin-bottom: 3.125rem;
 
+    tbody tr + tr {
+      overflow: hidden;
+    }
+    
+    tbody tr + tr {
+      border-top: 10px solid #f5f7f9;
+    }
+
     tr th {
       text-align: center;
       padding-bottom: 1.25rem;
@@ -180,9 +188,7 @@ export const TrackLayear = styled.div.attrs((props) => ({
       height: 4.375rem;
       background-color: #fff;
       border-top-left-radius: 0.5rem;
-      border-bottom-left-radius: 0.5rem;
-      
-      margin-top: 0.625rem;
+      border-bottom-left-radius: 0.5rem;          
 
       font-weight: bold;
       font-size: 0.9rem;
