@@ -8,6 +8,8 @@ Fala galera! 👋
 
 O flumer é um conceito visual de um app de musica a primeira versão dele foi publicada aqui no git três anos atrás e sim faz muiito tempo 😅
 
+O app foi a [implementação dessa interface no dribble](https://dribbble.com/shots/4156485-Online-Music-Streaming-Service-Artist-Page/attachments/950274) e teve um pouco de inspiração no Spotfy também.
+
 Nesta nova versão foi integrado o Vite para a geração do build tanto para produção como para desenvolvimento, e também foi feito o deploy no netlify 🥳🎉
 
 Você pode [acessar o app aqui](https://flumer.netlify.app/)
