@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px) {
+    #category-container {        
+        overflow-x: auto;
+        border-radius: 1.875rem;
+    }
+}

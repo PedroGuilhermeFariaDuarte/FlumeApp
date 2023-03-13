@@ -11,7 +11,7 @@ export const Container = styled.section`
 
 export const AboutLayear = styled.div`
   width: 100%;
-  max-height: 700px;
+  max-height: 50%;
   /* border: 1px solid thistle; */
   background-image: url(${prop => prop.cover});
   background-size: cover;
@@ -22,7 +22,9 @@ export const AboutLayear = styled.div`
   flex-direction: column;
 `;
 
-export const CategoryContainer = styled.div`
+export const CategoryContainer = styled.div.attrs(props => ({
+  id: 'category-container'
+}))`
   width: 100%;
   min-height: 50px;
   height: auto;
@@ -34,18 +36,17 @@ export const CategoryContainer = styled.div`
 `;
 
 export const Category = styled.div`
-  min-width: 100px;
+  min-width: 6.25rem;
   width: auto;
-  height: 20px;
-  background-color: ${prop =>
-    usePalette(prop.colorFromCover).data.darkVibrant + `20`};
-  padding: 5px;
-  border-radius: 30px;
-  font-size: 8px;
+  height: auto;
+  background-color: ${prop => usePalette(prop.colorFromCover).data.darkVibrant + `20`};
+  padding: 0.312rem;
+  border-radius: 1.875rem;
+  font-size: 0.8rem;
   font-weight: bold;
   color: #fff;
   cursor: pointer;
-  margin-left: 10px;
+  margin-left: 0.625rem;
 
   display: flex;
   justify-content: center;
@@ -53,8 +54,9 @@ export const Category = styled.div`
 `;
 
 export const AboutTrack = styled.div`
-  width: 80%;
-  height: 250px;
+  width: 100%;
+  height: auto;
+  max-height: 50%;
   /* border: 1px solid whitesmoke; */
   padding: 10px;
 
@@ -62,13 +64,13 @@ export const AboutTrack = styled.div`
   flex-direction: column;
 
   h1 {
-    font-size: 50px;
+    font-size: 5.125rem;
     font-weight: bold;
     color: #fff;
   }
 
   p {
-    font-size: 10px;
+    font-size: 0.9rem;
     font-weight: bold;
     color: #fff;
     margin-top: 20px;
@@ -76,10 +78,11 @@ export const AboutTrack = styled.div`
 
   #ActionTrack {
     width: 100%;
-    height: 30px;
-    margin-top: 30px;
+    height: auto;
+    margin-top: 1.875rem;
     /* border: 1px solid thistle; */
     display: flex;
+    flex-direction: none;
     justify-content: space-between;
 
     button {
