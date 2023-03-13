@@ -12,12 +12,11 @@
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@lauriys/react-palette": "^1.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-palette": "^1.0.2",
     "react-router-dom": "5.1.2",
-    "styled-components": "^5.3.8",
-    "use-media": "^1.4.0"
+    "styled-components": "^5.3.8"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
